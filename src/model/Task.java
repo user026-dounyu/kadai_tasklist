@@ -25,6 +25,7 @@ import javax.persistence.*;
 })
 @Table(name = "tasks")
 public class Task {
+	//test message
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
