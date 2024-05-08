@@ -18,6 +18,10 @@
 							<th>内容</th>
 							<td><c:out value="${task.content}" /></td>
 						</tr>
+ 						<tr>
++							<th>場所</th>
++							<td><c:out value="${task.place}" /></td>
++						</tr>
 						<tr>
 							<th>開始日</th>
 							<td><c:out value="${task.startdate}" /></td>
